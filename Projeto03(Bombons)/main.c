@@ -8,9 +8,9 @@ int main(int argc, char *argv[]) {
 	float valorbb1a, valorbb2c, valorbb3p, multbb1a, multbb2c, multbb3p, total ;
 	int qntbb1a, qntbb2c, qntbb3p;
 	
-	//Comentas os printf
+	//Comentar os printf
 	
-	printf("Digite o valor do bombom de avel„: \n"); 
+	printf("Digite o valor do bombom de avel√£: \n"); 
 	scanf("%f", &valorbb1a);
 	
 	printf("Digite o valor do bombom de caramelo: \n"); 
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	printf("Digite o valor do bombom de passas: \n"); 
 	scanf("%f", &valorbb3p);
 	
-	printf("Digite a quantidade do bombom de avel„ \n"); 
+	printf("Digite a quantidade do bombom de avel√£ \n"); 
 	scanf("%i", &qntbb1a);
 	
 	printf("Digite a quantidade do bombom de caramelo: \n"); 
