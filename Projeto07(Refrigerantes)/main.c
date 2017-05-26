@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 	int i;
 	char refri[5][50];
 	
-	printf("Bem vindo, para começar digite os refrigerantes que deseja cadastrar: \n");
+	printf("Bem vindo, para comeÃ§ar digite os refrigerantes que deseja cadastrar: \n");
 	
 	system("pause");
 	
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 	for(i=0; i<5; i++){
 		
 		printf("%s\t",refri[i]);
-		printf("Código: %d\t", i+1);
+		printf("CÃ³digo: %d\t", i+1);
 		printf("\n");
 		
 	}
@@ -34,13 +34,13 @@ int main(int argc, char *argv[]) {
 	int votos[5]={0,0,0,0,0};
 	int cod;
 	
-	printf("Digite o código do refrigerante votado: ");
+	printf("Digite o cÃ³digo do refrigerante votado: ");
 	scanf("%d",&cod);
 	
 	while(cod!=0){
 		
 		votos[cod-1]++;
-		printf("Digite o código do refrigerante votado: ");
+		printf("Digite o cÃ³digo do refrigerante votado: ");
 		scanf("%d",&cod);
 		
 	}
@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
 			
 			if( votos[cod] > votos[cod + 1] ){
 				
-			printf("maior = \n", cod);
+				printf("maior = \n", cod);
 				
 			} else{
 				
