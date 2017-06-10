@@ -18,30 +18,30 @@ int main(int argc, char *argv[]) {
 		
 			total = acervo;
 		
-			printf("Quantos barris você gostaria? ");
+			printf("Quantos barris vocÃª gostaria? ");
 			scanf("%d", &barris);
 		
 			acervo = total + barris;
 		
 			if(barris < 0 ){
 			
-				printf("Quantidade inválida\n");
+				printf("Quantidade invÃ¡lida\n");
 			
 			}
 		
 		} while (barris != 0);
 	
-		printf("\nO total de barris é: %d\n", acervo);
+		printf("\nO total de barris Ã©: %d\n", acervo);
 		system("pause");
 		
 		do{
 	
-		printf("\nDigite o valor do barril em dólar: \n");
+		printf("\nDigite o valor do barril em dÃ³lar: \n");
 		scanf("%f", &vb);
 	
 			if(vb < 1){
 				
-				printf("Valor inválido");
+				printf("Valor invÃ¡lido");
 				
 			}
 	
@@ -49,12 +49,12 @@ int main(int argc, char *argv[]) {
 	
 		do{
 	
-		printf("\nDigite o valor médio do dolar em reais: ");
+		printf("\nDigite o valor mÃ©dio do dolar em reais: ");
 		scanf("%f", &dolar);
 	
 			if(dolar < 1){
 				
-				printf("Valor inválido");
+				printf("Valor invÃ¡lido");
 				
 			}
 			
@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
 	
 		conversao = vt * dolar;
 	
-		printf("\nO valor final dos barris ficará em reais %.3f R$/n", conversao);
+		printf("\nO valor final dos barris ficarÃ¡ em reais %.3f R$\n", conversao);
 	
 		enum resp{
 		
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
 	
 		typedef enum resp bool;
 	
-			printf("Quer enecerrar o programa? (1 - Sim / 0 - Não)\n");
+			printf("Quer enecerrar o programa? (1 - Sim / 0 - NÃ£o)\n");
 			scanf("%i", &resp);
 		
 			system("cls");
