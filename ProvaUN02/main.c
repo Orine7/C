@@ -16,23 +16,20 @@ int main(int argc, char *argv[]) {
 	
 		do {
 		
-			total = acervo;
-		
 			printf("Quantos barris você gostaria? ");
 			scanf("%d", &barris);
-		
-			acervo = total + barris;
 		
 			if(barris < 0 ){
 			
 				printf("Quantidade inválida\n");
-			
+				total = total;
+			}else{
+				total = total + barris;
 			}
 		
-		} while (barris != 0);
+		} while (barris < 0 || barris > 0);
 	
-		printf("\nO total de barris é: %d\n", acervo);
-		system("pause");
+		printf("\nO total de barris é: %d\n", total);
 		
 		do{
 	
